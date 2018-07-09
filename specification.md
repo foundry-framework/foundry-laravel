@@ -66,7 +66,7 @@ Each of the below is broken into parts or concepts for easy discussion and under
  - Calling a service and a method would then be something like `$app('api')->serviceName($params…)`, or `$app('serviceAlias')->methodName($params...)`. 
     - This will allow for the API to be exposed via REST or other API development practices without having to specifically write specific API Controllers.
     - This will also allow for easy API adapters to be developed which are just simply wrappers to call a service method on the server. This concept is similar to [https://guide.meteor.com/methods.html](Meteor's Methods).
-    - This is also a similar concept to how getCandy is built. See 
+    - This is also a similar concept to how getCandy is built. See below resource link.
  - Whilst using the API to call services, it does not mean plugins cannot use classes of other plugins directly but this should be avoided. 
  - Example Resources:
     - **Get Candy:** [https://getcandy.io/](https://getcandy.io/) and [https://github.com/getcandy/candy-api](https://github.com/getcandy/candy-api). A commerce API framework is a great example of the ideal api calling concept and a central API 

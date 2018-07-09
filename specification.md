@@ -96,7 +96,7 @@ In fact, Controllers should be for broad "type" of request/response handling. Su
 
 Think of View Components as front-end code (on the server or the client) and Services as backend code (on the server) and then Service Adapters are communication adapters for communicating client to and from the server. 
 
-**Specifications:**
+**Specifications**:
  - The system must implement a View First concept and not use the traditional MVC methodology.
 
 

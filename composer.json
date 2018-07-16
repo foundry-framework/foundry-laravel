@@ -35,7 +35,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "packages/laravel-plugins"
+            "url": "packages/foundry-framework/framework"
         }
     ],
     "extra": {

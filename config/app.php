@@ -151,6 +151,7 @@ return [
          * Package Service Providers...
          */
 	    //Oneso\LaravelPlugins\PluginServiceProvider::class,
+        LaravelDoctrine\ORM\DoctrineServiceProvider::class,
 
 
         /*

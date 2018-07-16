@@ -15,12 +15,12 @@
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
-        "phpunit/phpunit": "^7.0"
+        "phpunit/phpunit": "^7.0",
+        "foundry-framework/framework": "*"
     },
     "autoload": {
         "classmap": [
-            "database/seeds",
-            "database/factories"
+
         ],
         "psr-4": {
             "App\\": "app/"
@@ -34,7 +34,10 @@
     "repositories": [
         {
             "type": "path",
-            "url": "packages/foundry-framework/framework"
+            "url": "packages/foundry-framework/framework",
+            "options": {
+                "symlink": false
+            }
         }
     ],
     "extra": {

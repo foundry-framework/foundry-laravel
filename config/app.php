@@ -152,6 +152,7 @@ return [
          */
 	    //Oneso\LaravelPlugins\PluginServiceProvider::class,
 
+
         /*
          * Application Service Providers...
          */

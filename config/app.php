@@ -152,6 +152,7 @@ return [
          */
 	    //Oneso\LaravelPlugins\PluginServiceProvider::class,
         LaravelDoctrine\ORM\DoctrineServiceProvider::class,
+        LaravelDoctrine\Migrations\MigrationsServiceProvider::class,
 
 
         /*

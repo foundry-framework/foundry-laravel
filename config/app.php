@@ -155,6 +155,7 @@ return [
         LaravelDoctrine\Migrations\MigrationsServiceProvider::class,
         LaravelDoctrine\Extensions\GedmoExtensionsServiceProvider::class,
         LaravelDoctrine\Extensions\BeberleiExtensionsServiceProvider::class,
+        Foundry\Framework\FoundryServiceProvider::class,
 
 
         /*

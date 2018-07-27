@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fac4e8810c01364476360993e77d2a27",
+    "content-hash": "9e5c8584ee02d989b554f0fe86ce292e",
     "packages": [
         {
             "name": "beberlei/DoctrineExtensions",
@@ -1398,7 +1398,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/foundry-framework/framework.git",
-                "reference": "a55b0b4dc91e90b057f9a795ae9d38def1ee8e0a"
+                "reference": "83d045eb265d80bee4f81a6fb30755e9dac538fc"
             },
             "require": {
                 "beberlei/doctrineextensions": "^1.0",
@@ -1458,20 +1458,36 @@
                 "issues": "https://github.com/foundry-framework/framework/issues",
                 "source": "https://github.com/foundry-framework/framework"
             },
-            "time": "2018-07-25T14:55:39+00:00"
+            "time": "2018-07-27T09:35:13+00:00"
+        },
+        {
+            "name": "foundry-plugins/user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foundry-plugins/user.git",
+                "reference": "28fc2a04bd09c132f48615f600666091ab776439"
+            },
+            "type": "foundry-plugins",
+            "autoload": {
+                "psr-4": {
+                    "Foundry\\User\\": "src/"
+                }
+            },
+            "time": "2018-07-27T09:55:40+00:00"
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.35",
+            "version": "v2.4.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "1e400fbd05b7e5f912f55fe95805450f7d3bed60"
+                "reference": "87c78ff9fd4b90460386f753d95622f6fbbfcb27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/1e400fbd05b7e5f912f55fe95805450f7d3bed60",
-                "reference": "1e400fbd05b7e5f912f55fe95805450f7d3bed60",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/87c78ff9fd4b90460386f753d95622f6fbbfcb27",
+                "reference": "87c78ff9fd4b90460386f753d95622f6fbbfcb27",
                 "shasum": ""
             },
             "require": {
@@ -1539,7 +1555,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2018-05-08T12:28:40+00:00"
+            "time": "2018-07-26T12:16:35+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1837,16 +1853,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.6.28",
+            "version": "v5.6.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f"
+                "reference": "acc6b5c54ab196d3358f60acc5f55d9ebaaccc02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
-                "reference": "40ba2ee0e61cb4bc3c9f1dab04908e6acf06b86f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/acc6b5c54ab196d3358f60acc5f55d9ebaaccc02",
+                "reference": "acc6b5c54ab196d3358f60acc5f55d9ebaaccc02",
                 "shasum": ""
             },
             "require": {
@@ -1972,7 +1988,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-07-17T14:15:36+00:00"
+            "time": "2018-07-26T16:01:26+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -5807,7 +5823,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "foundry-framework/framework": 20
+        "foundry-framework/framework": 20,
+        "foundry-plugins/user": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

@@ -9,7 +9,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
-        "foundry-framework/framework": "@dev"
+        "foundry-framework/framework": "@dev",
+        "foundry-plugins/user": "@dev"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
@@ -35,6 +36,10 @@
         {
             "type": "git",
             "url": "https://github.com/foundry-framework/framework.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/foundry-plugins/user.git"
         }
     ],
     "extra": {
@@ -44,14 +49,14 @@
         },
         "installer-types": [
             "foundry-framework",
-            "foundry-plugin"
+            "foundry-plugins"
         ],
         "installer-paths": {
             "frameworks/core/": [
                 "type:foundry-framework"
             ],
-            "plugins/foundry":[
-                "type:foundry-plugin"
+            "plugins/foundry/{$name}/":[
+                "type:foundry-plugins"
             ]
         }
     },
